@@ -76,9 +76,13 @@ priority=0 actions=CONTROLLER:65535
 ## Proof of Execution
 
 ### Screenshot 1 - Topology startup and h1 ping h2 (0% loss)
+![Ping Test](ping_test.png)
 ### Screenshot 2 - ARP request/reply (0% unanswered)
+![ARP Test](arp_test.png)
 ### Screenshot 3 - pingall (0% dropped, 12/12 received)
+![Pingall Test](pingall_test.png)
 ### Screenshot 4 - Flow table dump showing installed rules
+![Flow Table](flow_table.png)
 
 ## Controller Logic
 - packet_in handler: Intercepts all unmatched packets
