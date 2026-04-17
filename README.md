@@ -5,9 +5,9 @@ This project implements ARP request and reply handling using an SDN controller (
 
 ## Project Structure
 arp_sdn_project/
-├── arp_controller.py   # Ryu SDN controller with ARP handling logic
-├── topology.py         # Mininet topology (4 hosts, 1 switch)
-└── README.md           # This file
+├── arp_controller.py   
+├── topology.py         
+└── README.md           
 
 ## Requirements
 - Ubuntu 20.04/22.04
